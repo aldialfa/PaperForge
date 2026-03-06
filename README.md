@@ -4,6 +4,10 @@
 
 PaperForge automates the full lifecycle of academic paper generation — from idea creation and experiment execution to iterative writing, citation integration, and self-review — using a closed-loop, multi-phase pipeline driven by large language models. It includes production-grade experiment tooling: SSH remote execution, quality gates, statistical significance testing, training watchdog, and pre-flight validation.
 
+> **Acknowledgement**: PaperForge is a derivative work of [The AI Scientist](https://github.com/SakanaAI/AI-Scientist) by Sakana AI. The upstream code is licensed under The AI Scientist Source Code License (see [LICENSE-UPSTREAM](LICENSE-UPSTREAM)). PaperForge adds multi-phase workflow orchestration, SSH remote execution with result backfill, anti-AI-detection writing style, and production experiment infrastructure on top of the original framework.
+>
+> **Mandatory Disclosure**: Any scientific manuscript generated using PaperForge **must** prominently disclose AI involvement (e.g., in the abstract or a dedicated disclosure section), as required by the upstream license.
+
 ## Features
 
 ### Paper Writing Pipeline
@@ -240,7 +244,8 @@ PaperForge/
 ├── Dockerfile                     # Reproducible GPU + LaTeX environment
 ├── requirements.txt
 ├── .gitignore
-└── LICENSE                        # CC BY-NC 4.0
+├── LICENSE                        # PaperForge License (non-commercial + upstream restrictions)
+└── LICENSE-UPSTREAM               # The AI Scientist Source Code License (Sakana AI)
 ```
 
 ## Quick Start
@@ -606,10 +611,20 @@ See [`CODE_AGENT_PROMPT.md`](CODE_AGENT_PROMPT.md) for the six-phase protocol:
 
 ## License
 
-This project is licensed under **CC BY-NC 4.0** (Creative Commons Attribution-NonCommercial 4.0 International).
+This project is dual-licensed:
 
-- ✅ 自由复制、转发、修改
-- ✅ 个人和学术使用
-- ❌ 禁止商业用途
+| License | File | Scope |
+|---------|------|-------|
+| **PaperForge License v1.0** | [LICENSE](LICENSE) | Non-commercial use + additional terms |
+| **The AI Scientist Source Code License v1.0** | [LICENSE-UPSTREAM](LICENSE-UPSTREAM) | Inherited upstream restrictions (Sakana AI) |
 
-详见 [LICENSE](LICENSE) | [完整法律文本](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
+**Key rules:**
+
+- ✅ Free to copy, share, modify — for **personal and academic use**
+- ✅ Must credit PaperForge and upstream project (The AI Scientist by Sakana AI)
+- ✅ Must include **both** LICENSE files when redistributing
+- ✅ Must **disclose AI usage** in any generated papers (mandatory, legally binding)
+- ❌ **No commercial use**
+- ❌ No surveillance, deceptive media, unauthorized healthcare/criminal prediction use
+
+See [LICENSE](LICENSE) and [LICENSE-UPSTREAM](LICENSE-UPSTREAM) for full legal text.
