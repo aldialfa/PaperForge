@@ -17,7 +17,7 @@ PaperForge automates the full lifecycle of academic paper generation — from id
 - **Literature search integration**: OpenAlex and Semantic Scholar queries feed directly into writing context
 - **Prompt caching**: Anthropic prompt caching reduces token cost across multi-turn writing sessions
 - **Anti-AI-detection style control**: customizable prompt library with 20+ academic writing prompts
-- **LaTeX sanitization**: automatic removal of AI-trace markers from generated `.tex` files
+- **LaTeX sanitization**: automatic cleanup of stylistic artifacts and formatting inconsistencies in generated `.tex` files
 
 ### Experiment Infrastructure
 - **SSH remote execution**: upload code to GPU server, run training, download results — all via `remote.yaml`
