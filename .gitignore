@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+.venv*/
+venv/
+
+# API keys & secrets
+key.sh
+remote.yaml
+
+# Runtime artifacts
+workspace/results/
+workspace/local_backfill_assets/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+.cursor/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# Matplotlib cache
+/tmp/mplconfig_paperforge/
