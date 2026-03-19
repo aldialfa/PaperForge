@@ -1,0 +1,422 @@
+/*color
+	biru  : #17a2b8
+	hitam : #00394f
+	grey  : #f8f9fa
+*/
+
+.navbar	{
+	width: 100%;
+	height: 85px;
+	background-color: #f8f9fa;
+	box-shadow: 0 0 4px rgb(0, 0, 0, 1.0);
+	position: fixed;
+	z-index: 9999999;
+}
+
+.judul {
+	width: 550px;
+	height: 70px;
+	margin-left: 50px;
+}
+
+.judul-1 {
+	margin-left: 70px;
+	margin-top: -54px;
+}
+
+.judul-1 a {
+	text-decoration: none;
+	font-size: 3.2rem;
+	color:  #17a2b8;
+	font-weight: bold;
+}
+
+.judul img {
+	width: 50px;
+	height: 63px;	
+	margin-top: 5px;
+}
+
+.menu {
+	width: 400px;
+	float: right;
+	margin-right: 180px;
+	margin-top: -33px;
+}
+	
+.menu a {
+	font-size: 17px;
+	text-decoration: none;
+	margin-right: 19px;
+	font-weight: bold;
+	font-family: arial;
+	color: #00394f;
+}
+
+.header {
+	width: 100%;
+	height: 580px;
+	background-color: #17a2b8;
+	display: inline-block;
+	margin-top: 80px;
+}
+
+.content {
+	width: 45%;
+	height: 400px;
+	margin-top: 50px;
+	margin-left: 50px;
+	color: white;
+}
+
+.content h4{
+	font-size: 2.1rem;
+	font-family: "brush script MT";
+	padding-top: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.content h1 {
+	font-size: 3.4rem;
+	padding-top: 15px;
+	text-align: center;
+	font-weight: bold;
+	font-family: "Trirong", serif;
+}
+
+.content-1 {
+	font-size: 1.1rem;
+	padding-top: 30px;
+	text-align: center;
+	font-style: italic;
+}
+
+.btn1 {
+	margin-left: 220px;
+}
+
+.co-img {
+	width: 40%;
+	height: 100px;
+	float: right;
+	margin-top: -490px;
+	margin-right: 80px;
+}
+
+.materi {
+	height: 450px;
+	width: 100%;
+	margin-top: 5px;
+}
+
+.mat {
+	height: 430px;
+	width: 90%;
+	margin-top: 50px;
+	margin-left: 70px;
+	color: grey;
+}
+
+.mat1, .mat2, .mat3, .mat4, .mat5, .mat6 {
+	width: 350px;
+	height: 170px;
+	margin: 30px 0px 0px 30px;
+	background-color: #f8f9fa;
+	float: left;
+	border-radius: 5px;
+	box-shadow: 0 0 1px  rgb(0, 0, 0, 1.0);
+	text-align: center;
+}
+
+.mat1-1, .mat2-1, .mat3-1, .mat4-1, .mat5-1, .mat6-1 {
+	width: 30%;
+	height: 100%;
+}
+
+.mat1-2, .mat2-2, .mat3-2, .mat4-2, .mat5-2, .mat6-2 {
+	width: 65%;
+	height: 100%;
+	float: left;
+	margin-left: 100px;
+	margin-top: -170px;
+	text-align: left;
+	font-size: 18px;
+}
+	
+.mat h2 {
+	color: #00394f;
+	font-size: 24px;
+	text-align: left;
+	font-weight: 800;
+	margin-top: 18px;
+}
+
+.about {
+	height: 570px;
+	width: 100%;
+	margin-top: 5px;
+}
+.about1 {
+	width: 45%;
+	float: left;
+}
+
+.about1 img {
+	margin-top: 50px;
+	margin-left: 150px;
+}
+.about2 {
+	width: 50%;
+	float: left;
+	margin-top: 80px;
+	color: gray;
+}
+
+.about2 h4{
+	font-size: 2.3rem;
+	font-family: "brush script MT";
+	padding-top: 10px;
+	font-weight: bold;
+	color: #00394f;
+}
+
+.about2 p {
+	font-size: 1.1rem;
+	padding-top: 20px;
+}
+
+.class {
+	height: 400px;
+	width: 100%;
+	margin-top: 50px;
+}
+.tit-class {
+	margin-left: 20px;
+}
+
+.fullclass {
+	width: 1000px;
+	height: 400px;
+	margin-left: 170px;
+}
+
+.fullclass p {
+	font-size: 25px;
+	font-weight: bold;
+	color: #00394f;
+	margin-top: 25px;
+}
+
+.class1, .class2, .class3 {
+	width: 300px;
+	height: 290px;
+	margin: 20px 15px;	
+	background-color: #f8f9fa;
+	float: left;
+	box-shadow: 0 0 1px  rgb(0, 0, 0, 1.0);
+	border-radius: 10px;
+	text-align: center;
+}
+
+.join {
+	height: 500px;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.join1 {
+	width: 50%;
+	height: 500px;
+	float: left;
+}
+
+.text {
+	width: 80%;
+	height: 300px;
+	margin-top: 100px;
+	float: right;
+	color: grey;
+	font-size: 1.2rem;
+}
+
+.join2 {
+	width: 50%;
+	height: 500px;
+	float: left;
+}
+
+.form {
+	width: 60%;
+	height: 380px;
+	margin-top: 50px;
+	margin-left: 50px;
+	background-color: #17a2b8;
+	border-radius: 5px;
+}
+
+.head {
+	width: 100%;
+	height: 70px;
+	color: white;
+	background-color: #00394f;
+	border-radius: 2px ;
+}
+.form form {
+	margin-left: 40px;
+	margin-top: 40px;
+}
+
+input[type=text], select {
+	width: 90%;
+	padding: 12px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	width: 90%;
+	background-color: #00394f;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: skyblue;
+}
+
+.teacher {
+	width: 100%;
+	height: 430px;
+	margin-top: 30px;
+	float: left;
+}
+.teacher2 {
+	margin-left: 70px;
+	margin-top: 30px;
+	background-color: yellow;
+	font-style: italic;
+	color: grey;
+}
+
+.teacher2 img {
+	width: 250px;
+	border-radius: 130px;
+}
+
+.teacher2 li {
+	width: 50px;
+	height: 50px;
+	float: left;
+	padding-right: 200px;
+	margin-left: 30px;
+	font-size: 1.1rem;
+}
+.ust {
+	width: 240px;
+	height: 60px;
+	margin-top: 10px;
+	text-align: center;
+	
+}
+
+.ust span {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #00394f;
+	font-style: normal;
+}
+
+.footer {
+	height: 150px;
+	width: 100%;
+	background-color: #00394f;
+	margin-top: 600px;
+	color: white;
+}
+
+.footer1 {
+	padding: 70px;
+	text-align: center;
+	margin-top: 200px;
+}
+
+.footer1 a {
+	text-decoration: none;
+	color: #17a2b8;
+}
+
+.button {
+	width: 200px;
+	background-color: #00394f;
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 50px;
+	cursor: pointer;
+}
+
+.button2 {
+	width: 110px;
+	background-color: #17a2b8;
+	border: none;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	float: right;
+	margin: -45px 30px;
+}
+
+
+.button3 {
+	width: 150px;
+	background-color: #17a2b8;
+	border: none;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 40px 0px;
+}
+
+.button1, .button2, .button3 {border-radius: 30px; cursor: pointer;}
+
+.h4 {
+	font-size: 1.5rem;
+	padding-top: 10px;
+	text-align: center;
+	font-weight: bold;
+	color: #17a2b8;
+}
+.h5 {
+	font-size: 2rem;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-weight: bold;
+	color: #00394f;
+}
+
+.active {
+	background-color: #17a2b8;
+}
+
+.active:hover {
+	background-color: skyblue;
+}
